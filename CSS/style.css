@@ -1,0 +1,1157 @@
+.main{    
+    margin:0;
+    padding: 0;
+    height: 513vh;
+    background: rgb(234, 232, 232); 
+}
+
+                             /* HEADER */
+
+.topo{   
+    background-color:#fb682e;   
+    width: 100%;    
+    top: 0;
+    margin: 0;
+    padding: 0;
+    height: 130px;     
+}
+.menus-principais{
+    align-items: center;
+    display: flex;    
+    width: 99%;  
+    margin: auto;    
+    justify-content: space-between;
+    font-weight: 300;
+    font-size: 15.8px;    
+}
+.menus_LE a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.menus_LD a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px; 
+}
+.menus_LD svg{
+   width: 14px;
+   color: white;  
+}
+.menu_destaque a{
+    color: rgb(254, 255, 255);
+    text-decoration: none;
+    padding-right: 10px;
+    font-weight: 420;
+    font-size: 16px;
+    text-decoration: none;
+}
+.sub_menus{    
+    height: 70px;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;   
+    display: flex;
+    margin-top: 20px;    
+}
+ .sub_menus .logo{
+  width: 14%; 
+  margin-left: 10px;  
+}
+.busca{    
+    background-color: white;    
+    width: 60%;
+    height: 40px;
+    margin: 20px 45px  24px;    
+} 
+.form{    
+    height: 40px;
+    width: 100%;
+    margin: -56px 1px 40px;      
+}
+.form_shopee{
+    width: 88%;   
+    height: 33px;
+    margin: 1px 15px 25px;      
+}
+.input input{
+    width: 100%;
+    margin: 20px 1px 40px;
+    height: 35px;
+    border: 0;     
+}
+.icon_button {  
+   width: 57px;
+   height: 36px; 
+   margin-left: 117vh;
+   margin-top: 2px;
+   background-color: #f86530;   
+   border: 0;   
+}
+.sub_menus .carrinho svg{
+    margin-left: 160vh;
+    margin-top: -55px;    
+    width: 30px;      
+    height: 30px;
+}
+.obj{
+    color: rgb(248, 154, 96);    
+    font-weight: 900px;
+    font-size: 16px;
+    margin-left: -8px;
+    margin-right: 3px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+                  /* CARROUSSEL */
+
+.nav{   
+    width:100%;
+    height: 69vh;    
+    background-color: white; 
+    align-items: center; 
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;  
+}
+.container_carroussel{    
+    width: 67%;
+    height: 271px;
+    align-items: center; 
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;  
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.carroussel{    
+    width: 100%;
+    height: 274px;
+    align-items: center; 
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;  
+    margin-left: 20px;      
+}
+.APP{    
+    margin-top: 45px;
+    width: 30%;
+    height: 275px;
+    margin-right: 20px;
+}
+.card1{    
+    height: 51%;
+}
+.card1 img{
+    width: 100%;
+    height: 94%;
+}
+.card2{   
+    height: 50%;       
+}
+.card2 img{
+    width: 100%;
+    height: 94%;    
+}
+.menus_opcões{   
+    width: 94%;
+    height: 60px;
+    margin: auto;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.coin svg{
+    width: 44px;    
+    margin-left: -131px;
+    border: solid 1px rgb(221, 217, 217);
+    border-radius: 16px;
+    padding: 5px;      
+    color: rgb(234, 185, 92);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.controle img{
+    width: 44px;
+    margin: 70px -127px 10px;
+    border: solid 1px rgb(221, 217, 217);
+    border-radius: 16px;
+    padding: 5px;    
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delivery img{
+    width: 50px;
+    margin: 70px -128px 10px;
+    border: solid 1px rgb(221, 217, 217);
+    border-radius: 16px;
+    padding: 11px; 
+    margin-bottom: 70px;
+}
+.cupons img{
+    width: 44px;
+    margin: 70px -122px 10px;
+    border: solid 1px rgb(221, 217, 217);
+    border-radius: 16px;
+    padding: 11px; 
+    color: rgb(250, 89, 89);
+    margin-bottom: 70px;
+}
+.loja_oficial svg{
+    width: 44px;
+    margin: 74px -109px 3px;
+    border: solid 1px rgb(221, 217, 217);
+    border-radius: 16px;
+    padding: 11px; 
+    color: rgb(250, 89, 89);
+    margin-bottom: 70px;
+}
+.moda img{
+    width: 48px;   
+    margin: 72px -95px 10px;   
+    border: solid 1px rgb(221, 217, 217);
+    border-radius: 18px; 
+    padding: 11px;
+    margin-bottom: 70px;
+}
+.live svg{
+    width: 44px;
+    margin: 76px -96px 1px;   
+    border: solid 1px rgb(221, 217, 217);
+    border-radius: 16px; 
+    padding: 11px;
+    color: rgb(81, 103, 87);
+    margin-top: 0px;
+}
+.doação svg{
+    width: 44px;
+    margin: 70px -92px 10px;    
+    border: solid 1px rgb(221, 217, 217);
+    border-radius: 16px; 
+    padding: 11px;
+    color: rgb(251, 89, 71);
+    margin-bottom: 70px;
+}
+.tecnologia svg{
+    width: 44px;
+    margin: 70px -80px 10px;    
+    border: solid 1px rgb(221, 217, 217);
+    border-radius: 16px; 
+    padding: 11px;
+    color: rgb(142, 213, 255);
+    margin-bottom: 70px;
+}
+.moda_agora  h5{
+    width: 44px;
+    height: 44px;
+    margin: 20px -60px 10px;   
+    margin-top: 10px; 
+    border: solid 1px rgb(221, 217, 217);
+    border-radius: 16px;    
+    padding-top: 15px;
+    justify-content: center;
+    display: flex;
+    color: rgb(28, 29, 29);    
+    font-size: 9px;
+    font-weight: 830;   
+}
+.nav .opções{   
+    width: 130%;   
+    margin: -10px 32px 90px;  
+    padding: 10px;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+.nav .h1{
+    margin: 1px;
+    margin-bottom: 200px;
+    font-size: 1.5vh;
+    font-weight: 500;    
+}
+.nav .h2{
+    margin: 1px;
+    margin-bottom: 200px;
+    margin-left: 60px;
+    font-size: 1.5vh;
+    font-weight: 500; 
+}
+.nav .h3{
+    margin: 1px;
+    margin-bottom: 200px;
+    margin-left: 60px;
+    font-size: 1.5vh;
+    font-weight: 500;    
+}
+.nav .h4{
+    margin: 1px;
+    margin-bottom: 200px;
+    margin-left: 60px;
+    font-size: 1.5vh;
+    font-weight: 500;   
+}
+.nav .h5{
+    margin: 1px;
+    margin-bottom: 200px;
+    margin-left: 60px;
+    font-size: 1.5vh;
+    font-weight: 500;    
+}
+.nav .h6{
+    margin: 1px;
+    margin-bottom: 200px;
+    margin-left: 56px;
+    font-size: 1.5vh;
+    font-weight: 500;   
+}
+.nav .h7{
+    margin: 1px;
+    margin-bottom: 200px;
+    margin-left: 56px;
+    font-size: 1.5vh;
+    font-weight: 500;    
+}
+.nav .h8{
+    margin: 1px;
+    margin-bottom: 200px;
+    margin-left: 58px;
+    font-size: 1.5vh;
+    font-weight: 500;
+}
+.nav .h9{
+    margin: 1px;
+    margin-bottom: 200px;
+    margin-left: 60px;
+    font-size: 1.5vh;
+    font-weight: 500;    
+}
+.nav .h10{
+    margin: 1px;
+    margin-bottom: 200px;
+    margin-left: 60px;
+    font-size: 1.5vh;
+    font-weight: 500;
+    margin-right: 13px;
+}
+                            /* OFERTAS RELÂMPAGO */
+
+.ofertas_relampago{
+    background: white;
+    width: 98%;  
+    height: 42px; 
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20px;    
+}
+.ofertas_tempo{    
+    width: 100%;
+    height: 56px;
+    margin: 0;
+    display: flex;   
+}
+.tempo_relogio{    
+    width: 100%;
+    height: 58px;  
+}
+.titulo_ofertas{   
+    width: 18%;
+    height: 53px;    
+}
+.titulo_ofertas h4{
+    color: red;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    margin-top: 11px;
+    font-size: 16px;
+    padding-left: 20px;
+}
+.cronometro{   
+    width: 9%;
+    height: 41px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 30px 10px;   
+}
+.cronometro .timer{
+    color: rgb(254, 252, 252);
+    background-color: rgb(12, 12, 12);
+    font-size: 14px;
+    width: 100%;   
+    font-weight: 600;
+}
+.mais_ofertas {    
+    height: 53px;
+    margin-left: 140vh;
+    width: 100px;
+    text-decoration: none;
+}
+.mais_ofertas h5{
+    font-size: 1px;    
+    color: rgb(255, 90, 45);
+    padding: 15px 2px 4px;
+    font-size: 9px;   
+}
+.ofertas_produtos{
+    background: white;
+    width: 98%;
+    height:385px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;    
+}
+.produto1 img{    
+    width: 28vh;
+    height: 35vh;     
+}
+.produto4 img{    
+    width: 28vh;
+    height: 35vh;     
+}
+.cabeçalho_produto1{
+    display: flex;
+    justify-content: space-between;    
+    margin: 1px 0px 0px ;
+    width: 28vh;
+}
+.cabeçalho_produto4{
+    display: flex;
+    justify-content: space-between;   
+    margin: 2px 14px 0px ;
+    width: 23.5vh;
+}
+.cabeçalho_produto4 .h8{
+    color: rgb(253, 251, 251);
+    font-weight: 100;
+    font-size: 13px;
+    margin-top: 6px;
+    background-color: brown;
+    width: 40px;
+    height: 20px;   
+}
+.cabeçalho_produto4 .h6{
+    background-color: rgb(243, 228, 18);
+    color: red;
+    font-weight: 500;
+    font-size: 13px;
+    width: 50px;
+    height: 18px;
+    padding: 1px 9px 1px;    
+}
+.cabeçalho_produto1 .h8{
+    color: rgb(253, 251, 251);
+    font-weight: 100;
+    font-size: 13px;
+    margin-top: 6px;
+    background-color: brown;
+    width: 40px;
+    height: 20px;   
+}
+.cabeçalho_produto1 .h6{
+    background-color: rgb(243, 228, 18);
+    color: red;
+    font-weight: 500;
+    font-size: 13px;
+    width: 50px;
+    height: 18px;
+    padding: 1px 9px 1px;    
+}
+.rodape_prod{   
+    height: 120px;
+    width: 28vh;
+}
+.fretes_gratis{    
+    height: 14px;
+    width: 1vh;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 5px;
+    background: rgb(30, 30, 132);
+    display: flex;
+    margin: -1px 1px 20px;
+    justify-content: space-between;
+} 
+.fretes_gratis img{   
+    height: 18px;    
+    width: 28px;  
+    margin-left: -1px;  
+}
+.fretes_gratis span{    
+    font-size: 8.6px;
+    color: rgb(250, 250, 250);  
+    padding: 3px 12px 10px;     
+}
+.valor .promoção{
+    color: red; 
+    font-size: 25px;
+     width: 20vh;    
+    display: flex;
+    margin: 11px 50px 10px;
+    padding-left: 10px;
+    justify-content:space-around;   
+}
+.linha .pop{    
+    color: rgb(254, 255, 255);   
+    font-size: 15px;    
+    display: flex;
+    justify-content: space-between;
+    margin: -22px 45px 11px;
+    font-weight: 600;    
+}
+.tonalidade_forte1{
+    background: rgb(255, 49, 49);
+    width: 22%;
+    height:19px ;
+    margin: 1px 1px 1px;   
+    border-radius: 19px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 2px;    
+}
+.tonalidade_fraca1{
+    background: rgb(255, 150, 150);
+    width: 74%;
+    height:19px ;
+    margin: -20px 30px 1px;     
+    border-radius: 19px;
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 2px;    
+}
+.linha  .item2{
+    color: rgb(255, 255, 255);  
+    font-size:17px; 
+    width: 80%;   
+    display: flex;
+    margin: auto;
+    margin: -24px 10px 90px;
+    font-weight: 600;
+    opacity: 0.8;    
+}
+.linha  .item4{
+    color: rgb(251, 251, 251);  
+    font-size: 16.5px; 
+    width: 80%;  
+    display: flex; 
+    margin: auto;
+    margin: -23px 10px 90px;
+    font-weight: 600;
+    opacity: 0.9;   
+}
+.linha  .item6{
+    color: rgb(255, 254, 254);  
+    font-size: 15.5px; 
+    width: 80%;   
+    margin: auto;
+    display: flex;
+    margin: -23px 10px 90px;
+    font-weight: 600;
+    opacity: 0.9;    
+}
+.tonalidade_forte2{
+    background: rgb(255, 49, 49);
+    width: 50%;
+    height:19px ;
+    margin: -1px 1px 1px;     
+    border-radius: 19px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 2px;    
+}
+.tonalidade_fraca2{
+    background: rgb(255, 150, 150);
+    width: 64%;
+    height:19px ;
+    margin: -20px 45px 1px;     
+    border-radius: 19px;
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 2px;     
+}
+.tonalidade_forte3{
+    background: rgb(255, 49, 49);
+    width: 40%;
+    height:19px ;
+    margin: -1px 2px 1px;     
+    border-radius: 19px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 2px;    
+}
+.tonalidade_fraca3{
+    background: rgb(255, 150, 150);
+    width: 65%;
+    height:19px ;
+    margin: -20px 38px 1px;     
+    border-radius: 19px;
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 2px;   
+}
+.tonalidade_forte4{
+    background: rgb(255, 49, 49);
+    width: 70%;
+    height:19px ;
+    margin: -2px 2px 1px;     
+    border-radius: 19px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 2px;    
+}
+.tonalidade_fraca4{
+    background: rgb(255, 150, 150);
+    width: 64%;
+    height:19px ;
+    margin: -20px 50px 1px;     
+    border-radius: 19px;
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 2px;   
+}
+.tonalidade_forte5{
+    background: rgb(255, 49, 49);
+    width: 30%;
+    height:19px ;
+    margin: -1px 2px 1px;     
+    border-radius: 19px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 2px;    
+}
+.tonalidade_fraca5{
+    background: rgb(255, 150, 150);
+    width: 63%;
+    height:19px ;
+    margin: -20px 48px 1px;     
+    border-radius: 19px;
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 2px;   
+}
+.tonalidade_forte6{
+    background: rgb(255, 49, 49);
+    width: 62%;
+    height:19px ;
+    margin: -1px 2px 1px; 
+    border-radius: 19px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 2px;    
+}
+.tonalidade_fraca6{
+    background: rgb(255, 150, 150);
+    width: 28%;
+    height:19px ;
+    margin: -20px 110px 1px;     
+    border-radius: 19px;
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 2px;   
+}
+.banner_simples .banner-image{
+    margin-top: 20px;    
+    width: 98%;  
+    display: flex;
+    margin-left: 12px;
+    justify-content: space-between;   
+}
+
+                         /*  DESTAQUES DE PRODUTOS */
+
+.destaques{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 98%;
+    height: 70px;    
+    margin-top: 20px;   
+    background: white;
+    color: red; 
+}
+.destaques h4{
+    margin-top: 20px;
+    padding: 2px 20px 10px;   
+}
+.destaques h5{
+    margin-top: 20px;
+    font-size: 1px;    
+    color: rgb(255, 90, 45);
+    font-size: 10.8px;
+    padding: 2px 1px 10px;   
+}
+.destaque_produtos{
+    background: white;
+    width: 98%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 1px;
+    justify-content: space-around;   
+}
+.produtos{  
+    padding: 80px 10px 20px;
+    margin: 2px 1px 28px;
+    height: 78vh;
+    width: 30vh;
+}
+.destaque1 img{   
+    width: 28vh;
+    height: 29vh;   
+    margin-top: 5px;
+    padding-top: 20px;    
+}
+.cabeçalho_destaque1{
+    display: flex;
+    justify-content: space-between;    
+    margin: 9px 12px 15px ;
+    margin-top: 22px;
+}
+.cabeçalho_destaque1 .h8{
+    color: rgb(251, 248, 248);
+    font-weight: 100;
+    font-size: 13px;
+    margin-top: 6px;
+    background: brown;
+    width: 40px;
+    height: 24px;
+    padding: 2px 9px 8px;    
+}
+.rodape_dest{    
+    height: 90px;
+    width: 30vh;
+}
+.vendas{   
+    height: 40px;
+    width: 29vh;   
+    background: rgb(99, 99, 100);
+    display: flex;
+    margin: -1px -9px 8px;
+    justify-content: space-between;
+    opacity: 0.5;   
+}
+.vendas .qtd_vendida{    
+    font-size: 13px;
+    color: white;  
+    padding: 10px 19px 8px;  
+    font-weight: 700;     
+}
+.vendas .qtd_vendida2{    
+    font-size: 12.5px;    
+    color: white;    
+    font-weight: 700; 
+    margin: 12px 20px ;
+}
+.valor span{
+    color: red;
+    font-size: 30px;   
+    display: flex;
+    margin: 10px 45px 10px;
+    padding-left: 8px;
+    justify-content:space-around;   
+}
+.nome_produto_destaque{    
+    width: 80%;
+    height:29px ;
+    margin: 19px 3px 1px;          
+}
+.nome_produto_destaque h5{
+    font-size: 20px;
+    color: rgb(16, 15, 15);
+    font-weight: 700;
+    opacity: 0.7;       
+}
+.nome_produto_destaque .utensilios{
+    font-size: 17px;
+    color: rgb(16, 15, 15);
+    font-weight: 700;
+    opacity: 0.7;   
+}
+.nome_produto_destaque .led{
+    font-size: 18.2px;
+    color: rgb(16, 15, 15);
+    font-weight: 700;
+    opacity: 0.7;
+    margin-left: 60px;  
+}
+.nome_produto_destaque .meias{
+    font-size: 17px;
+    color: rgb(16, 15, 15);
+    font-weight: 700;
+    opacity: 0.7;
+    margin-left: 10px;  
+}
+
+
+                                      /* DESCOBERTAS DO DIA */
+
+.descobertas{
+    width: 98%;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;    
+    margin-top: 20px;    
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding-top: 17px;
+    background-color: #fdfdfd;
+    color: red;   
+}
+.descobertas h5{
+   margin-left: 90vh;
+   height: 20px;
+    align-items:center; 
+}
+.LinhaVermelha{
+    background: rgb(245, 66, 66);
+    border: solid 2px rgb(223, 29, 19);
+    width: 100%;    
+    height: 4px;
+    margin-top: 19px; 
+}
+.produtos_descobertos{
+    border: solid 1px rgb(194, 194, 191);
+    padding: 80px 0px 80px;
+    margin: 20px 12px 28px;
+    height: 52vh;
+    width: 30vh;
+    overflow: hidden;
+    background: white;
+    margin-top: 10px;    
+}
+.produtos_descobertos:hover,:active{     
+    border-color: red;   
+}
+.descoberta1 img{  
+    width: 29vh;
+    height: 30vh;        
+}
+.cabeçalho_descoberta1{
+    display: flex;
+    justify-content: space-between;    
+    margin: -76px 0px 0px ;
+    width: 29.5vh;
+}
+.cabeçalho_descoberta1 .h8{
+    color: rgb(253, 251, 251);
+    font-weight: 100;
+    font-size: 13px;
+    margin: 10px 3px 1px;
+    background-color: rgb(223, 73, 4);
+    width: 48px;
+    height: 22px;    
+}
+.cabeçalho_descoberta1 .h6{
+    background-color: rgb(243, 228, 18);
+    color: red;
+    font-weight: 500;
+    font-size: 13px;
+    width: 59px;
+    height: 18px;
+    padding: 0px -1px 0px;
+    margin-top: -4px;    
+}
+.rodape_prod_descoberto{   
+    height: 120px;
+    width: 29.5vh;
+}
+.fretes_gratis{ 
+    height: 17px;
+    width: 27.5vh;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;    
+    display: flex;
+    margin: -1px 1px 20px;
+    justify-content: space-between;
+}
+.fretes_gratis img{
+    height: 18px;    
+    width: 28px;  
+    margin-left: -1px;    
+}
+.fretes_gratis .gratis{    
+    font-size: 10px;
+    color: white;  
+    padding: 3px 8px 8px;      
+}
+.produto_top1 p{      
+    color: rgb(0, 0, 0);
+    font-weight: 500;    
+    margin-top: -9px;
+    font-size: 13.3px;    
+}
+.valor_produto_descoberto span{
+    color: red;
+    font-size: 20px;
+    width: 11rem;    
+    display: flex;
+    margin: -2px -9px 1px;
+    padding-right: 80px;
+    justify-content:space-around;   
+}
+.total_descobertos{    
+    width: 98%;  
+    height: 90vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    background: rgb(234, 232, 232);   
+    flex-wrap:wrap;   
+}
+
+                              /* LOGIN TO SEE MORE */
+
+.login{
+    background: rgb(252, 252, 252);  
+    display: flex;   
+    width: 31%;
+    height: 40px;
+    border: 1px solid rgb(215, 213, 213);
+}
+.login:hover{
+    background: rgb(230, 228, 228);
+    border: 1px solid rgb(203, 203, 203);
+}
+.login p{
+    font-size: 15px;
+    font-weight: 350;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.login p a{
+    text-decoration: none;
+    color: black;
+}
+
+
+                                /* RODAPE */
+
+
+.marcador{
+    background: rgb(245, 66, 66);
+    border: solid 2px rgb(223, 29, 19);
+    width: 100%;    
+    height: 4px;   
+    position: -webkit-sticky;  
+}
+.rodape{
+    width: 100%;
+    height: 466vh;
+    background: white;  
+    margin-top: 177vh;
+    position: -webkit-sticky;     
+}
+.rodape h1{
+    color: red;
+    font-size: 25px;
+    opacity: 0.8;
+    margin: 10px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.rodape h2{
+    color: rgb(10, 9, 9);
+    font-size: 15px;
+    margin: 10px ;
+    margin-top: 80px;
+    opacity: 0.5;
+}
+.rodape h3{
+    color: rgb(10, 9, 9);
+    font-size: 15px;
+    margin: 15px ;
+    margin-top: 80px;
+    opacity: 0.5;    
+}
+.rodape p{
+    margin: 10px ;   
+    line-height: 20px; 
+}
+.rodape  ul{
+    margin: 20px; 
+    color: black;  
+    font-weight: 700; 
+    line-height: 1px;
+}
+.linha_rodape1{
+    color: rgb(170, 170, 168);
+    background: rgb(170, 170, 168);
+    opacity: 0.3;
+    width: 98%;
+    height: 0.1px;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.rodape .link3{
+    color: rgb(6, 6, 6);
+}
+.rodape .link5{
+    color: rgb(6, 6, 6);
+}
+.busca_alta p{
+    font-size: 13px;    
+    font-weight: 500;
+    opacity: 0.6;  
+}
+.busca_alta a{
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    font-weight: 500;
+    opacity: 0.9;
+}
+.busca_alta a:hover{
+    color: red;
+}
+.categorias{   
+    margin: auto;
+    display: flex;
+    justify-content: space-around;    
+    flex-wrap:wrap;     
+}
+.categorias p{
+    font-size: 11px;    
+    font-weight: 700;
+    opacity: 0.6;     
+}
+.categorias a{
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    font-weight: 700;
+    opacity: 0.9;    
+}
+.categorias a:hover{
+    color: rgb(255, 5, 5);    
+}
+.subcategoria h4{
+    color: rgb(7, 7, 7);
+    font-size: 12px;
+    font-weight: 700;
+    opacity: 0.7;
+    margin: 10px;
+}
+
+
+                                  /* FOOTER */
+
+
+
+.variados_footer{
+    width: 100%;
+    height: 92vh;
+    margin-top: 3vh;
+    background: rgb(250, 250, 250);    
+    display: flex;
+    justify-content: space-between;    
+    flex-wrap:wrap;       
+}
+.sub_footer h1{
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-family: "Roboto",serif;   
+    margin-left: 20px;    
+}
+.variados_footer p{
+    font-size: 15px;   
+    margin-left: 6px;
+    line-height: 27px;    
+}
+.variados_footer a{
+    text-decoration: none;
+    opacity: 0.8;
+    line-height: 1px;    
+    color: rgb(10, 10, 10);   
+    margin-left: 12px;    
+}
+.variados_footer a:hover{
+    color: red;
+}
+.dYrtRn .seção1{
+    display: flex;
+    list-style-type: none;
+    margin-left: -55px;    
+}
+.seção1 img{
+    padding: 8px;
+    width: 13vh;
+    height: 7vh;    
+}
+.jDS7G3{
+    margin-left: -41px;
+    list-style-type: none;
+    width: 13vh;
+    height: 7vh;
+}
+.sub_footer ._W8bOQ{
+    list-style-type: none;
+    margin-left: -4vh;
+    margin-top: -1vh;
+}
+.sub_footer li{
+    padding-top: 13px;
+}
+.sub_footer .S7tDsw {
+    padding-left: 10px;
+    color: rgb(2, 2, 2);
+    font-weight: 360;    
+}
+.sub_footer a{
+    text-decoration: none;
+}
+.linha_rodape2{
+    color: rgb(170, 170, 168);
+    background: rgb(170, 168, 168);
+    opacity: 0.3;
+    width: 98%;
+    height: 0.1px;
+    display: flex;
+    margin-top: 10vh;   
+    justify-content: space-around;    
+}
+.coopring{
+    width: 98%;
+    height: 90px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;    
+} 
+.direitos_shopee p{
+    margin-top: 1vh;
+    opacity: 0.7;
+}
+.regioes_shopee{
+    opacity: 0.7;
+    margin-bottom: 2px;
+    font-size: 15px;
+}
+.regioes_shopee strong{
+    opacity: 0.9;
+    padding: 2px;
+}
+.regioes_shopee a:hover{
+    color: rgb(22, 22, 22)
+}
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+  
+
+
