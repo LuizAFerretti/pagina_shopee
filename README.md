@@ -1,1 +1,1 @@
-# pagina_shopee
+Repositório de uma reprodução da pagina principal da shopee.
